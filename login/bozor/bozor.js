@@ -17,7 +17,7 @@ const searchRazmeri = document.getElementById("form").search2;
 const elAllPrice = document.querySelector(".all-price");
 const elAllCount = document.querySelector(".all-count");
 const token = localStorage.getItem("token");
-const API = "http://api.power007.uz/api/bozor";
+const API = "https://api.power007.uz/api/bozor";
 
 function getData() {
   fetch(API, {

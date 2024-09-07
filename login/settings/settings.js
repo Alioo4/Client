@@ -5,7 +5,7 @@ const id = sessionStorage.getItem("id");
 const logOut = document.getElementById("log-out");
 const token = localStorage.getItem("token");
 
-const API = `http://api.power007.uz/api/v1/auth/${id}`;
+const API = `https://api.power007.uz/api/v1/auth/${id}`;
 
 btn.addEventListener("click", (e) => {
   e.preventDefault();

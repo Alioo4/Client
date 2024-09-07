@@ -17,7 +17,7 @@ const elEditBalon = document.getElementById("edit-form").nomi;
 const elEditRazmeri = document.getElementById("edit-form").razmeri;
 const elEditSoni = document.getElementById("edit-form").soni;
 
-const API = "http://api.power007.uz/api/vetrina";
+const API = "https://api.power007.uz/api/vetrina";
 
 elSaveBtn.addEventListener("click", (e) => {
   e.preventDefault();

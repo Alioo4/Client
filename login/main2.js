@@ -1,7 +1,7 @@
 let chartInstance; // Declare chartInstance to store the current chart
 const resetBtn = document.getElementById("reset");
 
-const API = "http://api.power007.uz/api/bozor";
+const API = "https://api.power007.uz/api/bozor";
 let barColors = [];
 const hex = [1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
 const elForm = document.querySelector("#search");

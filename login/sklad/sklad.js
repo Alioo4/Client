@@ -19,7 +19,7 @@ const elEditNarxi = document.getElementById("edit-form").narxi;
 const elAllPrice = document.querySelector(".all-price");
 const elAllCount = document.querySelector(".all-count");
 
-const API = "http://api.power007.uz/api/sklad";
+const API = "https://api.power007.uz/api/sklad";
 
 elSaveBtn.addEventListener("click", (e) => {
   e.preventDefault();

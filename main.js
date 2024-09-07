@@ -1,7 +1,7 @@
 const user = document.querySelector("#user");
 const password = document.querySelector("#password");
 const btnlogin = document.querySelector("#btnlogin");
-const API = "http://api.power007.uz/api/v1/auth/login";
+const API = "https://api.power007.uz/api/v1/auth/login";
 btnlogin.addEventListener("click", (e) => {
   e.preventDefault();
   fetch(API, {
